@@ -448,7 +448,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.25, z: 0}
-  m_LocalScale: {x: 10, y: 0.5, z: 10}
+  m_LocalScale: {x: 100, y: 0.5, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -869,13 +869,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.14385228, y: -0.34464642, z: 0.053534422, w: 0.9260991}
+  m_LocalPosition: {x: 4.95, y: 2.64, z: -4.04}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 17.659, y: -40.825, z: 0}
 --- !u!1 &1129391493
 GameObject:
   m_ObjectHideFlags: 0
@@ -1368,10 +1368,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rightWheel: {fileID: 10905979}
   leftWheel: {fileID: 120344650}
-  linearAcceleration: 50
+  linearAcceleration: 100
   rotationalAcceleration: 500
   breakForce: 300
-  maxTurnAngle: 90
+  maxTurnAngle: 20
+  strength: 0.6
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
